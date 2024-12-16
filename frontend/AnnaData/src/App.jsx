@@ -1,12 +1,13 @@
 import './App.css'
-import Contracts from './Component/Contracts'
+import FarmerContracts from './Component/FarmerContracts'
 
 function App() {
 
 
   return (
     <>
-      <Contracts/>
+     <h1>Annadata - Farmer Contracts</h1>
+      <FarmerContracts/>
     </>
   )
 }

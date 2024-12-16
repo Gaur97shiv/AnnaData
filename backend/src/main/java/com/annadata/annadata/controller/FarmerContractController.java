@@ -17,6 +17,7 @@ public class FarmerContractController {
 
     // Get all farmer contracts
     @GetMapping("/all")
+    @CrossOrigin(origins = "http://localhost:5173")
     public List<FarmerContract> getAllContracts() {
         return farmerContractService.getAllFarmerContracts();
     }
