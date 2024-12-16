@@ -1,0 +1,14 @@
+{
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Spring Boot-AnnadataApplication<annadata>",
+      "request": "launch",
+      "cwd": "${workspaceFolder}",
+      "mainClass": "com.annadata.annadata.AnnadataApplication",
+      "projectName": "annadata",
+      "args": "",
+      "envFile": "${workspaceFolder}/.env"
+    }
+  ]
+}
