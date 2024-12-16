@@ -21,6 +21,12 @@
     </properties>
 
     <dependencies>
+
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
         <!-- Spring Boot Web Starter (includes REST, MVC, etc.) -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -40,11 +46,7 @@
             <version>8.0.29</version> <!-- Latest stable version of MySQL Connector -->
         </dependency>
 
-        <!-- Spring Boot Security Starter (optional if you need security) -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
-        </dependency>
+    
 
         <!-- Spring Boot DevTools for development (optional) -->
         <dependency>
